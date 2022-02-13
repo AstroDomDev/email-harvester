@@ -41,7 +41,7 @@ def similarity(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 
-def scrape_emails(urls, limiter=5000, logging=False, filter=True):
+def scrape_emails(urls, limiter=500, logging=False, filter=True):
     if __name__ == "__main__":
         print("At any point press ctrl+c to end the scraping loop.")
 
